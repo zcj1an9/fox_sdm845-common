@@ -1,7 +1,6 @@
 # mount point  fstype device                             device2              	flags
 /boot          emmc   /dev/block/bootdevice/by-name/boot
 
-/mi_ext  emmc   /dev/block/bootdevice/by-name/mi_ext			flags=display="Mi_ext";backup=1;flashimg=1
 /system_image  emmc   /dev/block/bootdevice/by-name/system			flags=display="System_image";backup=1;flashimg=1
 /vendor_image  emmc   /dev/block/bootdevice/by-name/vendor			flags=display="Vendor_image";backup=1;flashimg=1
 /system_root   ext4   /dev/block/bootdevice/by-name/system                    	flags=display="System";backup=0;wipeingui
